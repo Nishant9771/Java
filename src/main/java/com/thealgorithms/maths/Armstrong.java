@@ -33,4 +33,20 @@ public class Armstrong {
 
         return sum == number;
     }
+
+     public static void main(String[] args) {  // I am adding prompt with conditional statement that the number is armstrong or not.
+         
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter your Number :"); // Give prompt to your desired number.
+
+        int number = sc.nextInt();
+         
+        if (isArmstrong(number)) {
+            System.out.println(Number + " is an Armstrong number.");
+        } else {
+            System.out.println(Number + " is not an Armstrong number.");
+        }
+    }
 }
+
+
